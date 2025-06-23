@@ -55,6 +55,7 @@ main h1{
     color: #00ff00;
     margin-bottom: 5px;
     text-align: center;
+    padding: 10px;
 }
 
 .container{
@@ -147,7 +148,7 @@ main h1{
     width: 30%;
     position: static; /* agora você não precisa mais usar left */
     margin-top: 3rem;
-    background-color: whitesmoke;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -172,4 +173,8 @@ main h1{
 .aside-2 a{
     color: black;
     text-decoration: none;
+}
+
+.aside-2 p{
+    font-size: 1rem;
 }
