@@ -1,0 +1,175 @@
+@import url(reset.css);
+@import url(variables.css);
+
+body{
+    background-color: var(--body-color);
+    font-family: var(--font-body);
+    padding: 0 10px;
+    /* height: 100vh; */
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #4b4b4b;
+    padding: 10px;
+    padding-right: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+header h2{
+    color: #007e00;
+}
+
+header ul{
+    display: flex;
+    gap: 1.4rem;
+    list-style: none;
+    
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header #pesquisar{
+    padding: 5px;
+    width: 30%;
+}
+
+.principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* garante que fiquem no topo */
+    gap: 1rem;
+}
+
+main {
+    width: 65%;
+}
+
+main h1{
+    color: #00ff00;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #bdbdbd;
+    gap: 1rem;
+    width: 100%;
+    justify-content: center;
+    
+
+    
+}
+
+.cards{
+    width: 30%;
+    background-color: #6b6b6b;
+    margin: 0.3rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: var(--border-radius);
+    
+    
+}
+
+.cards img{
+    width: 100%;
+    height: 50%; 
+    border-radius: var(--border-radius);
+    
+}
+
+.cards p{
+    font-size: 1rem;
+    
+}
+
+.cards h3{
+    font-size: 1.5rem;
+}
+
+.cards span{
+    font-size: 1.3rem;
+    color: #00ff00;
+    width: 50%;
+}
+
+.cards button{
+    padding: 10px;
+    background-color: greenyellow;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    font-size: 1rem;
+    width: 50%;
+}
+
+
+.aside-1{
+    height: auto;
+    gap: 5px;
+    background-color: #ffffff;
+    width: auto;
+    margin: 10px;
+    padding: 0.5rem;
+}
+
+.aside-1 a{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: black;
+   
+}
+
+.aside-1 img{
+    width: 40%;
+    border-radius: var(--border-radius);
+}
+
+.aside-1 p{
+    font-size: 17px;
+}
+
+.aside-2 {
+    width: 30%;
+    position: static; /* agora você não precisa mais usar left */
+    margin-top: 3rem;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 0.5rem;
+}
+
+.aside-2 img{
+    width: 70%;
+
+}
+
+.aside-2 button{
+    padding: 10px;
+    background-color: greenyellow;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    font-size: 1rem;
+    width: 40%;
+}
+
+.aside-2 a{
+    color: black;
+    text-decoration: none;
+}
