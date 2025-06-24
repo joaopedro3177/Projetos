@@ -178,3 +178,115 @@ main h1{
 .aside-2 p{
     font-size: 1rem;
 }
+
+/*Página de login*/
+
+.body-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.container-login{
+    width: 420px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    color: black;
+    padding: 30px 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+.container-login h1{
+    font-size: 36px;
+    text-align: center;
+    color: #007e00;
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background-color: #bdbdbd;
+    border: none;
+    outline: none;
+    border: 2px solid;
+    border-radius: 20px;
+    font-size: 16px;
+    color: black;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+    color: #4b4b4b;
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input{
+    accent-color: green;
+    margin-right: 5px;
+}
+
+.remember-forgot a{
+    text-decoration: none;
+    
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.login{
+    width: 100%;
+    height: 50px;
+    background-color: #bdbdbd;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #4b4b4b;
+    font-weight: 600;
+    box-shadow:  0 0 10px rgba(0, 0, 0, .1);
+    margin-top: 20px;
+}
+
+.login:hover{
+    background-color: #007e00;
+    color: white;
+    transition: 0.3s;
+}
+
+.register-link{
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link a{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.register-link a:hover{
+    text-decoration: underline;
+}
