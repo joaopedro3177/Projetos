@@ -1,29 +1,10 @@
-#ex03
-contVogais = 0
 cont = 0
-palavra = input("Digite uma palavra:")
+asteristicos = "***************"
 
-palavra = palavra.lower()
-
-while cont < len(palavra):
-    letra = palavra[cont]
-
-    if letra == "a":
-        contVogais += 1
-
-    elif letra == "e":
-        contVogais += 1
-        
-    elif letra == "i":
-        contVogais += 1
-
-    elif letra == "o":
-        contVogais += 1
-
-    elif letra == "u":
-        contVogais += 1
-
+while cont <= len(asteristicos):
+    contG = 0
+    while contG < cont:
+        print(asteristicos[contG])
+        contG += 1
     cont += 1
-
-print("A palavra tem ", contVogais, " Vogais!")
 
