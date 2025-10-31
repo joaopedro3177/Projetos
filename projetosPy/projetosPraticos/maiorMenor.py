@@ -14,12 +14,12 @@ while resp != 3:
         numeroMaior = numeros[0]
         numeroMenor = numeros[0]
         for cont in numeros:
-            if numeroMaior < numeros[cont]:
-                numeroMaior = numeros[cont]
-                numeroMenor = numeroMaior
+            if numeroMaior < cont:
+                numeroMaior = cont
+                
 
             else:
-                numeroMenor = numeros[cont]
+                numeroMenor = cont
 
         print("O menor número é ",numeroMenor)
         print("O maior número é ",numeroMaior)
