@@ -1,7 +1,27 @@
-texto = "Exemplo de STRING"
-texto_minusculo = texto.lower()
-print(texto_minusculo)
-# Saída: exemplo de string
+senhaCorreta = "jotama21"
+resp = ""
+cont = 0
+
+while cont < 3:
+    resp = input("Digite a senha correta:")
+
+    if resp == senhaCorreta:
+        cont = 3
+        print("Você está logado!")
 
 
-# Saída: texto já em minúsculas
+
+    elif cont == 2:
+        print("Você tentou demais!")
+
+    cont +=1
+
+
+
+
+
+
+    
+
+
+
